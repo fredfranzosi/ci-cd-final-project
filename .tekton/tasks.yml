@@ -1,5 +1,5 @@
 apiVersion: tekton.dev/v1beta1
-kind: task
+kind: Task
 metadata:
   name: cleanup
 spec:
@@ -34,7 +34,7 @@ spec:
 
 ---
 apiVersion: tekton.dev/v1beta1
-kind: task
+kind: Task
 metadata:
   name: nose
 spec:
